@@ -12,9 +12,9 @@ function App() {
   };
 
   return (
-    <div className="w-[375px] min-h-[812px] mt-0 mx-auto text-white bg-blue-500">
+    <div className="w-[375px] min-h-screen mt-0 mx-auto text-white bg-blue-500">
       {!start && (
-        <div className="min-h-[812px] flex items-center justify-center">
+        <div className="min-h-screen flex items-center justify-center">
           <button
             className="text-2xl font-bold text-white"
             onClick={handleStart}

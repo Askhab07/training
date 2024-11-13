@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ExerciseDetails from './ExerciseDetails';
 
 const Exercise = ({ exercises, onBack }) => {
