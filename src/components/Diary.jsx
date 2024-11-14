@@ -48,7 +48,7 @@ const Diary = ({diary, setDiary}) => {
         }
 
         // Запускаем таймер для периодической проверки данных каждые 5 минут
-        const interval = setInterval(fetchEntries, 300000); // 300000 ms = 5 минут
+        const interval = setInterval(fetchEntries, 10000); // 300000 ms = 5 минут
 
         // Очищаем интервал при размонтировании компонента
         return () => clearInterval(interval);
