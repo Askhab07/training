@@ -1,20 +1,21 @@
 {
-    "short_name": "App",
-    "name": "Trainig App",
-    "icons": [
-      {
-        "src": "logo-training.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "logo-training.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
-  }
+  "name": "Training",
+  "short_name": "App",
+  "description": "A simple app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
